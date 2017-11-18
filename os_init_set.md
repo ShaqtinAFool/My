@@ -10,25 +10,23 @@
 
 # MAC
 - 開發
-	- Java & IDE
+	- Java
 		- JDK 8: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 		- 注意！！Netbeans 須和 JDK 版本一致
-
-	- MySQL & IDE
-		- MySQL: https://dev.mysql.com/downloads/mysql/
-			- 更改 root 密碼
-				- 記下 root temp password
-			- 如果透過 Java 匯入中文字是問號的話:
-				- su 進去
-				- 新建立一個檔案 vi /etc/my.cnf，內容如下  
-					[client]  
-					default-character-set=utf8  
-					[mysqld]  
-					character-set-server=utf8  
-				- 到 GUI 重啟 MySQL
-				- check 指令
-					- mysql -uroot -p
-					- show variables like 'character%';
+	- MySQL: https://dev.mysql.com/downloads/mysql/
+		- 更改 root 密碼
+			- 記下 root temp password
+		- 如果透過 Java 匯入中文字是問號的話:
+			- su 進去
+			- 新建立一個檔案 vi /etc/my.cnf，內容如下  
+				[client]  
+				default-character-set=utf8  
+				[mysqld]  
+				character-set-server=utf8  
+			- 到 GUI 重啟 MySQL
+			- check 指令
+				- mysql -uroot -p
+				- show variables like 'character%';
 	- Git: https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
 		- 產生 ssh key: ssh-keygen -t rsa -b 4096 -C "註冊電子郵件"
 		- cat ~/.ssh/id_rsa.pub，複製全部文字
@@ -57,17 +55,16 @@
 		- gcin: 
 		- debug: http://hyperrate.com/thread.php?tid=29563
 - 開發
-	- MySQL & IDE
-		- MySQL: https://dev.mysql.com/downloads/mysql/
-			- 遭遇中文是問號的話: http://blog.fens.me/linux-mysql-install/
-				- sudo vi /etc/mysql/my.cnf
-					- 直接在 my.cnf 最下面新增  
-						[client]  
-						default-character-set=utf8  
-						[mysqld]  
-						character-set-server=utf8  
-						collation-server=utf8_general_ci  
-				- 重啟 MySQL : sudo /etc/init.d/mysql restart
+	- MySQL: https://dev.mysql.com/downloads/mysql/
+		- 遭遇中文是問號的話: http://blog.fens.me/linux-mysql-install/
+			- sudo vi /etc/mysql/my.cnf
+				- 直接在 my.cnf 最下面新增  
+					[client]  
+					default-character-set=utf8  
+					[mysqld]  
+					character-set-server=utf8  
+					collation-server=utf8_general_ci  
+			- 重啟 MySQL : sudo /etc/init.d/mysql restart
 	- Git: https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
 		- 產生 ssh key: ssh-keygen -t rsa -b 4096 -C "註冊電子郵件"
 		- xclip -sel clip < ~/.ssh/id_rsa.pub
