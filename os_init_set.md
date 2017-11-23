@@ -110,15 +110,15 @@
 - 開發
 	- cmder 
 	- Git: https://dotblogs.com.tw/kirkchen/2013/04/23/use_ssh_to_interact_with_github_in_windows
-			- ssh-keygen -t rsa -C "xxx@xxx"，產生 ssh key
-			- cat C:\Users\Belle\.ssh\id_rsa.pub，複製全部文字到 GitLab 網站，到 SSH Keys 把這段文字貼上去
-			- ssh -T git@github.com，顯示以下  
-				The authenticity of host 'github.com (192.30.253.112)' can't be established.  
-				RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.  
-				Are you sure you want to continue connecting (yes/no)? yes  
-				Warning: Permanently added 'github.com,192.30.253.112' (RSA) to the list of known hosts.  
-				Hi ShaqtinAFool! You've successfully authenticated, but GitHub does not provide shell access.  
-			- 設定識別資料
-				- git config --global user.email "xxx@xxx"
-				- git config --global user.name "John Doe"
-			- done !
+		- ssh-keygen -t rsa -C "xxx@xxx"，產生 ssh key
+		- cat C:\Users\Belle\.ssh\id_rsa.pub，複製全部文字到 GitLab 網站，到 SSH Keys 把這段文字貼上去
+		- ssh -T git@github.com，顯示以下  
+			The authenticity of host 'github.com (192.30.253.112)' can't be established.  
+			RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.  
+			Are you sure you want to continue connecting (yes/no)? yes  
+			Warning: Permanently added 'github.com,192.30.253.112' (RSA) to the list of known hosts.  
+			Hi ShaqtinAFool! You've successfully authenticated, but GitHub does not provide shell access.  
+		- 設定識別資料
+			- git config --global user.email "xxx@xxx"
+			- git config --global user.name "John Doe"
+		- done !
