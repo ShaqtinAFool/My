@@ -1,8 +1,8 @@
 <!-- MarkdownTOC -->
 
-- MAC
-- Linux\(Ubuntu\)
-- Windows
+- [MAC](#mac)
+- [Linux\(Ubuntu\)](#linuxubuntu)
+- [Windows](#windows)
 
 <!-- /MarkdownTOC -->
 
@@ -28,7 +28,7 @@
 				- mysql -uroot -p
 				- show variables like 'character%';
 	- Git: https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
-		- 產生 ssh key: ssh-keygen -t rsa -b 4096 -C "註冊電子郵件"
+		- ssh-keygen -t rsa -b 4096 -C "xxx@xxx"，產生 ssh key
 		- cat ~/.ssh/id_rsa.pub，複製全部文字
 		- 到 GitLab 網站的 SSH Keys 把這段文字貼上去
 	- IDE
@@ -66,12 +66,12 @@
 					collation-server=utf8_general_ci  
 			- 重啟 MySQL : sudo /etc/init.d/mysql restart
 	- Git: https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
-		- 產生 ssh key: ssh-keygen -t rsa -b 4096 -C "註冊電子郵件"
+		- ssh-keygen -t rsa -b 4096 -C "xxx@xxx"，產生 ssh key
 		- xclip -sel clip < ~/.ssh/id_rsa.pub
 		- cat ~/.ssh/id_rsa.pub，複製全部文字
 		- 到 GitLab 網站的 SSH Keys 把這段文字貼上去
 		- 設定識別資料:
-			- git config --global user.email "註冊電子郵件"
+			- git config --global user.email "xxx@xxx"
 			- git config --global user.name "John Doe"
 	- IDE
 		- DBeaver: https://dbeaver.jkiss.org/download/
@@ -110,7 +110,7 @@
 - 開發
 	- cmder 
 	- Git: https://dotblogs.com.tw/kirkchen/2013/04/23/use_ssh_to_interact_with_github_in_windows
-			- 產生 ssh key: ssh-keygen -t rsa -C "註冊電子郵件"
+			- ssh-keygen -t rsa -C "xxx@xxx"，產生 ssh key
 			- cat C:\Users\Belle\.ssh\id_rsa.pub，複製全部文字到 GitLab 網站，到 SSH Keys 把這段文字貼上去
 			- ssh -T git@github.com，顯示以下  
 				The authenticity of host 'github.com (192.30.253.112)' can't be established.  
@@ -118,7 +118,7 @@
 				Are you sure you want to continue connecting (yes/no)? yes  
 				Warning: Permanently added 'github.com,192.30.253.112' (RSA) to the list of known hosts.  
 				Hi ShaqtinAFool! You've successfully authenticated, but GitHub does not provide shell access.  
-			- 設定識別資料:
-				- git config --global user.email "註冊電子郵件"
+			- 設定識別資料
+				- git config --global user.email "xxx@xxx"
 				- git config --global user.name "John Doe"
 			- done !
