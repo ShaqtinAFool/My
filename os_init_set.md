@@ -1,8 +1,8 @@
 <!-- MarkdownTOC -->
 
-- [MAC](#mac)
-- [Linux\(Ubuntu\)](#linuxubuntu)
-- [Windows](#windows)
+- MAC
+- Linux\(Ubuntu\)
+- Windows
 
 <!-- /MarkdownTOC -->
 
@@ -36,6 +36,8 @@
 		- Sequel Pro: https://sequelpro.com/download
 - 文書
 	- LibreOffice: https://zh-tw.libreoffice.org/
+	- OpenOffice: https://www.openoffice.org
+	- MicroSoft Office: https://myfcu.fcu.edu.tw/main/infomyfculogin.aspx
 - 繪圖
 	- Kirta: https://krita.org/jp/
 - 防護
