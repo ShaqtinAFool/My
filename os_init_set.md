@@ -48,6 +48,9 @@
 	- AppCleaner: https://freemacsoft.net/appcleaner/
 	- VLC: https://www.videolan.org/vlc/download-macosx.zh-TW.html
 	- Transmission (續傳軟體): https://transmissionbt.com/download/
+	- 讓終端機有顏色: http://sodahau.logdown.com/posts/18879-mac-ls
+		- vi ~/.bash_profile
+		- 加入 export CLICOLOR='true'
 
 ---
 
