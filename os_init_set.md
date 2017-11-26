@@ -31,6 +31,11 @@
 		- ssh-keygen -t rsa -b 4096 -C "xxx@xxx"，產生 ssh key
 		- cat ~/.ssh/id_rsa.pub，複製全部文字
 		- 到 GitLab 網站的 SSH Keys 把這段文字貼上去
+	- Homebrew
+		- /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+		- 安裝 telnet: https://github.com/theeternalsw0rd/homebrew-telnet
+			- brew tap theeternalsw0rd/telnet
+			- brew install telnet
 	- IDE
 		- Netbeans: https://netbeans.org/downloads/index.html
 		- Sequel Pro: https://sequelpro.com/download
