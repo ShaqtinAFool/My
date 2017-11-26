@@ -36,6 +36,12 @@
 		- 安裝 telnet: https://github.com/theeternalsw0rd/homebrew-telnet
 			- brew tap theeternalsw0rd/telnet
 			- brew install telnet
+			- 此時預設路徑是 /usr/local/bin/telnet，需要進入 Recovery Mode
+				- 重啟後按 command + R，啟動終端機
+				- csrutil diable
+				- ln -s /usr/local/Cellar/telnet/54.50.1/bin/telnet /usr/bin/
+				- 重啟後按 command + R，啟動終端機
+				- csrutil enable
 	- IDE
 		- Netbeans: https://netbeans.org/downloads/index.html
 		- Sequel Pro: https://sequelpro.com/download
