@@ -29,6 +29,10 @@
 				- show variables like 'character%';
 	- Git: https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
 		- ssh-keygen -t rsa -b 4096 -C "xxx@xxx"，產生 ssh key
+			- 建議命名 id_rsa_github.pub
+		- ssh-agent
+			- eval "$(ssh-agent -s)"
+			- ssh-add -K ~/.ssh/id_rsa
 		- cat ~/.ssh/id_rsa.pub，複製全部文字
 		- 到 GitLab 網站的 SSH Keys 把這段文字貼上去
 	- Homebrew
