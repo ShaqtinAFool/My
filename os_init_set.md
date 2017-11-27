@@ -29,6 +29,7 @@
 				- show variables like 'character%';
 	- Git: https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
 		- ssh-keygen -t rsa -b 4096 -C "xxx@xxx"，產生 ssh key
+			- 可參考: http://blog.alantsai.net/2016/03/ssh-config-ssh-agent-passphrase-management.html
 			- 建議命名 id_rsa_github.pub
 		- ssh-agent
 			- eval "$(ssh-agent -s)"
