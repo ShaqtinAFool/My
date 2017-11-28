@@ -1,8 +1,8 @@
 <!-- MarkdownTOC -->
 
-- MAC
-- Linux\(Ubuntu\)
-- Windows
+- [MAC](#mac)
+- [Linux\(Ubuntu\)](#linuxubuntu)
+- [Windows](#windows)
 
 <!-- /MarkdownTOC -->
 
@@ -31,11 +31,20 @@
 		- ssh-keygen -t rsa -b 4096 -C "xxx@xxx"，產生 ssh key
 			- 可參考: http://blog.alantsai.net/2016/03/ssh-config-ssh-agent-passphrase-management.html
 			- 建議命名 id_rsa_github.pub
-		- ssh-agent
-			- eval "$(ssh-agent -s)"
-			- ssh-add -K ~/.ssh/id_rsa
+		- 如果有兩組 ssh 以上，需建立 config [如果沒建立，會出現 Permission denied (publickey)]
+			- 第一組  
+				Host github.com
+				HostName github.com
+				User git
+				IdentityFile ~/.ssh/id_rsa_github
+			- 第二組  
+				Host gitlab.ttfri.space
+				HostName gitlab.ttfri.space
+				User git
+				IdentityFile ~/.ssh/id_rsa_gitlab
 		- cat ~/.ssh/id_rsa.pub，複製全部文字
 		- 到 GitLab 網站的 SSH Keys 把這段文字貼上去
+		- 測試看看: ssh -T -p 13922 git@gitlab.ttfri.space
 	- Homebrew
 		- /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 		- 安裝 telnet: https://github.com/theeternalsw0rd/homebrew-telnet
