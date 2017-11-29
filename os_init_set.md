@@ -3,6 +3,7 @@
 - [MAC](#mac)
 - [Linux\(Ubuntu\)](#linuxubuntu)
 - [Windows](#windows)
+- [Chrome](#chrome)
 
 <!-- /MarkdownTOC -->
 
@@ -152,3 +153,15 @@
 			- git config --global user.email "xxx@xxx"
 			- git config --global user.name "John Doe"
 		- done !
+- 其他
+	- UNetbootin: https://unetbootin.github.io/
+	- Pot player: https://potplayer.daum.net/
+	- Avast
+	- FreeFileSync: https://www.freefilesync.org/download.php
+	- HeidiSQL: https://www.heidisql.com/
+	
+# Chrome
+- LastPass
+- Google 翻譯
+- AdBlock
+- Office Online
