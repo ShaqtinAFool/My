@@ -4,6 +4,7 @@
 - [Linux\(Ubuntu\)](#linuxubuntu)
 - [Windows](#windows)
 - [Chrome](#chrome)
+- [Sublime](#sublime)
 
 <!-- /MarkdownTOC -->
 
@@ -109,16 +110,7 @@
 		- Brackets: http://brackets.io/
 - 跨平台
 	- PlayOnLinux: https://www.playonlinux.com/en/download.html
-		- Office 2010 32 bit
-- 文書
-	- Sublime
-		- Package Control: https://packagecontrol.io/installation
-		- 解決無法輸入中文: https://github.com/lyfeyaj/sublime-text-imfix
-			- 此方法同步解決其他程式無法輸入中文的囧境！！
-		- MarkdownTOC
-		- Side Bar
-		- ConvertToUTF8
-		- Trailingspaces
+		- Office 2010 32 bit (不好用...)
 - 繪圖
 	- krita: https://krita.org/jp/
 - 防護
@@ -139,7 +131,6 @@
 
 # Windows
 - 開發
-	- cmder 
 	- Git: https://dotblogs.com.tw/kirkchen/2013/04/23/use_ssh_to_interact_with_github_in_windows
 		- ssh-keygen -t rsa -C "xxx@xxx"，產生 ssh key
 		- cat C:\Users\Belle\.ssh\id_rsa.pub，複製全部文字到 GitLab 網站，到 SSH Keys 把這段文字貼上去
@@ -154,14 +145,30 @@
 			- git config --global user.name "John Doe"
 		- done !
 - 其他
+	- cmder 
+	- QTTabBar (免費開源): http://qttabbar.wikidot.com/
 	- UNetbootin: https://unetbootin.github.io/
 	- Pot player: https://potplayer.daum.net/
 	- Avast
 	- FreeFileSync: https://www.freefilesync.org/download.php
 	- HeidiSQL: https://www.heidisql.com/
-	
+
+---
+
 # Chrome
 - LastPass
 - Google 翻譯
 - AdBlock
 - Office Online
+- Imagus
+
+---
+
+# Sublime
+- Package Control: https://packagecontrol.io/installation
+- 解決無法輸入中文: https://github.com/lyfeyaj/sublime-text-imfix
+	- 此方法同步解決其他程式無法輸入中文的囧境！！
+- MarkdownTOC
+- Side Bar
+- ConvertToUTF8
+- Trailingspaces
