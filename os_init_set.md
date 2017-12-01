@@ -2,6 +2,7 @@
 
 - [MAC](#mac)
 - [Linux\(Ubuntu\)](#linuxubuntu)
+- [Linux\(VM CentOS\)](#linuxvm-centos)
 - [Windows](#windows)
 - [Chrome](#chrome)
 - [Sublime](#sublime)
@@ -47,6 +48,8 @@
 		- cat ~/.ssh/id_rsa.pub，複製全部文字
 		- 到 GitLab 網站的 SSH Keys 把這段文字貼上去
 		- 測試看看: ssh -T -p 13922 git@gitlab.ttfri.space
+			- 如果出現 Bad owner or permissions on /home/使用者名稱/.ssh/config
+			- 執行 chmod 600 ~/.ssh/config 就可以了
 	- Homebrew
 		- /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 		- 安裝 telnet: https://github.com/theeternalsw0rd/homebrew-telnet
@@ -126,6 +129,22 @@
 	- FileZilla: https://filezilla-project.org/download.php?type=client
 	- FB Messenger (非官方支援): https://messengerfordesktop.com/
 	- PCMAN: https://wiki.ubuntu-tw.org/index.php?title=PCMAN
+
+# Linux(VM CentOS)
+- 將使用者設定成 root 權限
+	- visudo
+	- 找到  root    ALL=(ALL) ALL
+	- 加上  tony    ALL=(ALL) ALL
+- 先跑
+	- sudo yum update
+	- yum install gcc make kernel-devel kernel-headers
+	- 執行 vboxadditions 裡面的 autorun.sh
+
+- 安裝 Apache
+	- sudo yum install httpd
+
+- 安裝 Git
+	- yum install git
 
 ---
 
