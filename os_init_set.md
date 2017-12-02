@@ -188,6 +188,7 @@
 - 解決無法輸入中文: https://github.com/lyfeyaj/sublime-text-imfix
 	- 此方法同步解決其他程式無法輸入中文的囧境！！
 - MarkdownTOC
+	- "default_bracket": "round"
 - Side Bar
 - ConvertToUTF8
 - Trailingspaces
