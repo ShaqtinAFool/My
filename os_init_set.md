@@ -3,6 +3,7 @@
 - [MAC](#mac)
 - [Linux\(Ubuntu\)](#linuxubuntu)
 - [Linux\(VM CentOS\)](#linuxvm-centos)
+	- [- ServerName 192.168.56.101:80](#--servername-1921685610180)
 - [Windows](#windows)
 - [Chrome](#chrome)
 - [Sublime](#sublime)
@@ -131,6 +132,8 @@
 	- PCMAN: https://wiki.ubuntu-tw.org/index.php?title=PCMAN
 
 # Linux(VM CentOS)
+- 查詢 IP
+	- ip a 找名稱為 enp0s8
 - 將使用者設定成 root 權限
 	- visudo
 	- 找到  root    ALL=(ALL) ALL
@@ -146,6 +149,13 @@
 - 安裝 Git
 	- yum install git
 
+- 啟動 Apache
+	- 啟動 httpd
+		- systemctl start httpd
+		- systemctl enable httpd
+		- 查詢執行狀態: service httpd status
+	- 網頁伺服器設定檔: vi /etc/httpd/conf/httpd.conf
+		- ServerName 192.168.56.101:80
 ---
 
 # Windows
