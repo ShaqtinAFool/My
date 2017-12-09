@@ -1,7 +1,7 @@
 <!-- MarkdownTOC -->
 
 - [MAC](#mac)
-- [Linux\(Ubuntu\)](#linuxubuntu)
+- [Linux\(Host Ubuntu\)](#linuxhost-ubuntu)
 - [Linux\(VM CentOS\)](#linuxvm-centos)
 	- [- ServerName 192.168.56.101:80](#--servername-1921685610180)
 - [Windows](#windows)
@@ -13,6 +13,7 @@
 ---
 
 # MAC
+- 格式：外接硬碟如果不是 Mac 格式，就無法寫入。
 - 開發
 	- Java
 		- JDK 8: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
@@ -65,15 +66,20 @@
 	- IDE
 		- Netbeans: https://netbeans.org/downloads/index.html
 		- Sequel Pro: https://sequelpro.com/download
+		- DBeaver: https://dbeaver.jkiss.org/
+		- Brackets:
+- 同步
+	- Google Drive: https://www.google.com/intl/zh-TW_ALL/drive/download/
 - 文書
 	- LibreOffice: https://zh-tw.libreoffice.org/
 	- OpenOffice: https://www.openoffice.org
 	- MicroSoft Office: https://myfcu.fcu.edu.tw/main/infomyfculogin.aspx
-- 繪圖
-	- Kirta: https://krita.org/jp/
+- ~~繪圖(還不會用)~~
+	- ~~Kirta: https://krita.org/jp/~~
 - 防護
 	- Avast: https://www.avast.com/zh-tw/free-mac-security
 - 其他
+	- FreeMind: http://freemind.sourceforge.net/wiki/index.php/Main_Page
 	- FreeFileSync: https://www.freefilesync.org/download.php
 	- Mactracker: https://itunes.apple.com/tw/app/mactracker/id430255202?mt=12
 	- AppCleaner: https://freemacsoft.net/appcleaner/
@@ -85,7 +91,7 @@
 
 ---
 
-# Linux(Ubuntu)
+# Linux(Host Ubuntu)
 - 一般設定
 	- 輸入法
 		- gcin: 
@@ -190,6 +196,7 @@
 - AdBlock
 - Office Online
 - Imagus
+- 遠端桌面
 
 ---
 
