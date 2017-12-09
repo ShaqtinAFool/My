@@ -188,6 +188,8 @@
 	- FreeFileSync: https://www.freefilesync.org/download.php
 	- HeidiSQL: https://www.heidisql.com/
 
+# Windows(TTFRI)
+- 主機型號: https://www.asus.com/tw/Commercial-Desktop/BM6675/
 ---
 
 # Chrome
