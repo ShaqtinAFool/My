@@ -38,14 +38,14 @@
 			- 建議命名 id_rsa_github.pub
 		- 如果有兩組 ssh 以上，需建立 config [如果沒建立，會出現 Permission denied (publickey)]
 			- 第一組  
-				Host github.com
-				HostName github.com
-				User git
+				Host github.com  
+				HostName github.com  
+				User git  
 				IdentityFile ~/.ssh/id_rsa_github
 			- 第二組  
-				Host gitlab.ttfri.space
-				HostName gitlab.ttfri.space
-				User git
+				Host gitlab.ttfri.space  
+				HostName gitlab.ttfri.space  
+				User git  
 				IdentityFile ~/.ssh/id_rsa_gitlab
 		- cat ~/.ssh/id_rsa.pub，複製全部文字
 		- 到 GitLab 網站的 SSH Keys 把這段文字貼上去
@@ -147,6 +147,8 @@
 	- FB Messenger (非官方支援): https://messengerfordesktop.com/
 	- PCMAN: https://wiki.ubuntu-tw.org/index.php?title=PCMAN
 
+---
+
 # Linux(VM CentOS)
 - 查詢 IP
 	- ip a 找名稱為 enp0s8
@@ -203,6 +205,7 @@
 
 # Windows(TTFRI)
 - 主機型號: https://www.asus.com/tw/Commercial-Desktop/BM6675/
+	 - USB3.0: http://dlcdnet.asus.com/pub/ASUS/misc/usb30/Intel_USB3_Win7_VER104255.zip?_ga=2.252948105.1821313632.1512825030-1024450722.1512825030
 
 ---
 
@@ -212,7 +215,7 @@
 - AdBlock
 - Office Online
 - Imagus
-- 遠端桌面
+- 遠端桌面: https://chrome.google.com/webstore/detail/chrome-remote-desktop/gbchcmhmhahfdphkhkmpfmihenigjmpp?hl=zh-TW
 
 ---
 
