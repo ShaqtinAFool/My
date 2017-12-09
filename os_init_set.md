@@ -3,8 +3,8 @@
 - [MAC](#mac)
 - [Linux\(Host Ubuntu\)](#linuxhost-ubuntu)
 - [Linux\(VM CentOS\)](#linuxvm-centos)
-	- [- ServerName 192.168.56.101:80](#--servername-1921685610180)
 - [Windows](#windows)
+- [Windows\(TTFRI\)](#windowsttfri)
 - [Chrome](#chrome)
 - [Sublime](#sublime)
 
@@ -32,7 +32,7 @@
 			- check 指令
 				- mysql -uroot -p
 				- show variables like 'character%';
-	- Git: https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
+	- Git: https://git-scm.com/download/mac
 		- ssh-keygen -t rsa -b 4096 -C "xxx@xxx"，產生 ssh key
 			- 可參考: http://blog.alantsai.net/2016/03/ssh-config-ssh-agent-passphrase-management.html
 			- 建議命名 id_rsa_github.pub
@@ -67,7 +67,12 @@
 		- Netbeans: https://netbeans.org/downloads/index.html
 		- Sequel Pro: https://sequelpro.com/download
 		- DBeaver: https://dbeaver.jkiss.org/
-		- Brackets:
+		- Brackets: http://brackets.io/
+			- 設定中文語系: Debug >> Switch Language
+			- 設定自動完成括號: Edit >> Auto close Braces
+			- Brackets Icons
+			- Brackets Beautify
+			- Markdown Preview
 - 同步
 	- Google Drive: https://www.google.com/intl/zh-TW_ALL/drive/download/
 - 文書
@@ -85,16 +90,21 @@
 	- AppCleaner: https://freemacsoft.net/appcleaner/
 	- VLC: https://www.videolan.org/vlc/download-macosx.zh-TW.html
 	- Transmission (續傳軟體): https://transmissionbt.com/download/
+- 基本設定
 	- 讓終端機有顏色: http://sodahau.logdown.com/posts/18879-mac-ls
 		- vi ~/.bash_profile
 		- 加入 export CLICOLOR='true'
+	- 別名 alias
+		- vi ~/.bash_profile
+		- alias ll='ls -l'
+		- source ~/.bash_profile
 
 ---
 
 # Linux(Host Ubuntu)
 - 一般設定
 	- 輸入法
-		- gcin: 
+		- gcin:
 		- debug: http://hyperrate.com/thread.php?tid=29563
 - 開發
 	- MySQL: https://dev.mysql.com/downloads/mysql/
@@ -120,7 +130,7 @@
 		- Brackets: http://brackets.io/
 - 跨平台
 	- PlayOnLinux: https://www.playonlinux.com/en/download.html
-		- Office 2010 32 bit (不好用...)
+		- ~~Office 2010 32 bit (不好用...)~~
 - 繪圖
 	- krita: https://krita.org/jp/
 - 防護
@@ -162,6 +172,7 @@
 		- 查詢執行狀態: service httpd status
 	- 網頁伺服器設定檔: vi /etc/httpd/conf/httpd.conf
 		- ServerName 192.168.56.101:80
+
 ---
 
 # Windows
@@ -179,8 +190,10 @@
 			- git config --global user.email "xxx@xxx"
 			- git config --global user.name "John Doe"
 		- done !
+	- MySQL
 - 其他
-	- cmder 
+	- cmder: http://cmder.net/
+		- 中文不亂碼: set LANG=zh_TW.UTF-8
 	- QTTabBar (免費開源): http://qttabbar.wikidot.com/
 	- UNetbootin: https://unetbootin.github.io/
 	- Pot player: https://potplayer.daum.net/
@@ -190,6 +203,7 @@
 
 # Windows(TTFRI)
 - 主機型號: https://www.asus.com/tw/Commercial-Desktop/BM6675/
+
 ---
 
 # Chrome
