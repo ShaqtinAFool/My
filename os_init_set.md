@@ -98,6 +98,19 @@
 		- vi ~/.bash_profile
 		- alias ll='ls -l'
 		- source ~/.bash_profile
+	- 調整滑鼠大小: http://appleuser.com/2016/02/23/accessibility/
+	- 設定專屬的 Launchpad 排列方法 (initial: 7 columns * 5 rows)
+		- 直向: defaults write com.apple.dock springboard-rows -int 8
+		- 橫向: defaults write com.apple.dock springboard-columns -int 8
+		- 完成: killall Dock
+	- 啟用NTFS讀寫功能 (待寫...)
+
+- 硬體層面
+	- if 故障
+		- 清 PRAM: 重開機後會聽到「噹」一聲後立刻按下**⌘＋option＋P＋R**
+		- 重置 SMC: Shift＋Control＋Option 鍵以及電源按鈕
+	- 立馬釋放記憶體
+		- sudo purge
 
 ---
 
