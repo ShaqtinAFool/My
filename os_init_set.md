@@ -1,12 +1,12 @@
 <!-- MarkdownTOC -->
 
-- MAC
-- Linux\(Host Ubuntu\)
-- Linux\(VM CentOS\)
-- Windows
-- Windows\(TTFRI\)
-- Chrome
-- Sublime
+- [MAC](#mac)
+- [Linux\(Host Ubuntu\)](#linuxhost-ubuntu)
+- [Linux\(VM CentOS\)](#linuxvm-centos)
+- [Windows](#windows)
+- [Windows\(TTFRI\)](#windowsttfri)
+- [Chrome](#chrome)
+- [Sublime](#sublime)
 
 <!-- /MarkdownTOC -->
 
