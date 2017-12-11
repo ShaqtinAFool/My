@@ -1,12 +1,12 @@
 <!-- MarkdownTOC -->
 
-- [MAC](#mac)
-- [Linux\(Host Ubuntu\)](#linuxhost-ubuntu)
-- [Linux\(VM CentOS\)](#linuxvm-centos)
-- [Windows](#windows)
-- [Windows\(TTFRI\)](#windowsttfri)
-- [Chrome](#chrome)
-- [Sublime](#sublime)
+- MAC
+- Linux\(Host Ubuntu\)
+- Linux\(VM CentOS\)
+- Windows
+- Windows\(TTFRI\)
+- Chrome
+- Sublime
 
 <!-- /MarkdownTOC -->
 
@@ -201,11 +201,12 @@
 			Are you sure you want to continue connecting (yes/no)? yes  
 			Warning: Permanently added 'github.com,192.30.253.112' (RSA) to the list of known hosts.  
 			Hi ShaqtinAFool! You've successfully authenticated, but GitHub does not provide shell access.  
-		- 設定識別資料
-			- git config --global user.email "xxx@xxx"
-			- git config --global user.name "John Doe"
+		- ~~設定識別資料~~
+			- ~~git config --global user.email "xxx@xxx"~~
+			- ~~git config --global user.name "John Doe"~~
 		- done !
 	- MySQL
+		- 將下載檔案解壓縮後放在 C 槽
 - 其他
 	- cmder: http://cmder.net/
 		- 中文不亂碼: set LANG=zh_TW.UTF-8
