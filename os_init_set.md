@@ -19,8 +19,13 @@
 		- JDK 8: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 		- 注意！！Netbeans 須和 JDK 版本一致
 	- MySQL: https://dev.mysql.com/downloads/mysql/
-		- 更改 root 密碼
+		- 更改 root 密碼: http://emn178.pixnet.net/blog/post/87659567-mysql%E4%BF%AE%E6%94%B9%E5%AF%86%E7%A2%BC%E8%88%87%E5%BF%98%E8%A8%98%E5%AF%86%E7%A2%BC%E9%87%8D%E8%A8%AD
 			- 記下 root temp password
+			- 執行進入 MySQL
+			- mysql -u 登入使用者 -p
+			- SET PASSWORD FOR '登入使用者'@'localhost' = PASSWORD('密碼');
+			- flush privileges;
+			- done!
 		- 如果透過 Java 匯入中文字是問號的話:
 			- su 進去
 			- 新建立一個檔案 vi /etc/my.cnf，內容如下  
