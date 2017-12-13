@@ -57,6 +57,8 @@
 		- 測試看看: ssh -T -p 13922 git@gitlab.ttfri.space
 			- 如果出現 Bad owner or permissions on /home/使用者名稱/.ssh/config
 			- 執行 chmod 600 ~/.ssh/config 就可以了
+		- 設定識別資料
+			- git config --global user.email "xxx@xxx"
 	- Homebrew
 		- /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 		- 安裝 telnet: https://github.com/theeternalsw0rd/homebrew-telnet
@@ -225,6 +227,7 @@
 # Windows(TTFRI)
 - 主機型號: https://www.asus.com/tw/Commercial-Desktop/BM6675/
 	 - USB3.0: http://dlcdnet.asus.com/pub/ASUS/misc/usb30/Intel_USB3_Win7_VER104255.zip?_ga=2.252948105.1821313632.1512825030-1024450722.1512825030
+	 - ASUS WiFi n10:
 
 ---
 
