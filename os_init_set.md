@@ -5,6 +5,7 @@
 - [Linux\(VM CentOS\)](#linuxvm-centos)
 - [Windows](#windows)
 - [Windows\(TTFRI\)](#windowsttfri)
+	- [- SSMS: https://docs.microsoft.com/zh-tw/sql/ssms/download-sql-server-management-studio-ssms](#--ssms-httpsdocsmicrosoftcomzh-twsqlssmsdownload-sql-server-management-studio-ssms)
 - [Chrome](#chrome)
 - [Sublime](#sublime)
 
@@ -214,6 +215,12 @@
 		- done !
 	- MySQL
 		- 將下載檔案解壓縮後放在 C 槽
+		- 在 C:\Windows 製作(用 echo %WINDIR% 查路徑)
+			- my.ini
+			- my.cnf
+
+	- telnet: https://support.microsoft.com/zh-tw/help/982538
+
 - 其他
 	- cmder: http://cmder.net/
 		- 中文不亂碼: set LANG=zh_TW.UTF-8
@@ -234,7 +241,9 @@
 - 主機型號: https://www.asus.com/tw/Commercial-Desktop/BM6675/
 	 - USB3.0: http://dlcdnet.asus.com/pub/ASUS/misc/usb30/Intel_USB3_Win7_VER104255.zip?_ga=2.252948105.1821313632.1512825030-1024450722.1512825030
 	 - ASUS WiFi n10:
-
+- Xming X Server for Windows: https://sourceforge.net/projects/xming/
+- SQL Server
+	- SSMS: https://docs.microsoft.com/zh-tw/sql/ssms/download-sql-server-management-studio-ssms
 ---
 
 # Chrome
