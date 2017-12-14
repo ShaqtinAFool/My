@@ -217,6 +217,12 @@
 - 其他
 	- cmder: http://cmder.net/
 		- 中文不亂碼: set LANG=zh_TW.UTF-8
+		- 將 lambda 改成 $: \cmder\vendor\clink.lua，找 lambda
+		- 環境變數
+		set PATH=%ConEmuBaseDir%\Scripts;%PATH%  
+		set LANG=zh_TW.UTF8  
+		alias ll=ls -list  
+		alias git cm=git commit -m
 	- QTTabBar (免費開源): http://qttabbar.wikidot.com/
 	- UNetbootin: https://unetbootin.github.io/
 	- Pot player: https://potplayer.daum.net/
