@@ -268,4 +268,5 @@
 	- "default_bracket": "round"
 - Side Bar
 - ConvertToUTF8
+- ChineseLocalizations
 - Trailingspaces
