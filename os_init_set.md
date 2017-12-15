@@ -5,7 +5,6 @@
 - [Linux\(VM CentOS\)](#linuxvm-centos)
 - [Windows](#windows)
 - [Windows\(TTFRI\)](#windowsttfri)
-	- [- SSMS: https://docs.microsoft.com/zh-tw/sql/ssms/download-sql-server-management-studio-ssms](#--ssms-httpsdocsmicrosoftcomzh-twsqlssmsdownload-sql-server-management-studio-ssms)
 - [Chrome](#chrome)
 - [Sublime](#sublime)
 
@@ -244,6 +243,11 @@
 - Xming X Server for Windows: https://sourceforge.net/projects/xming/
 - SQL Server
 	- SSMS: https://docs.microsoft.com/zh-tw/sql/ssms/download-sql-server-management-studio-ssms
+- VirtualBox: https://www.virtualbox.org/wiki/Downloads
+	- 建立一個目錄放 VM
+	- VirtualBox 5.2.2 Oracle VM VirtualBox Extension Pack: 放在 VM 目錄內
+		- 新增在: 檔案 > 喜好設定 > 擴充功能
+
 ---
 
 # Chrome
