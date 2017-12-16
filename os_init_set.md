@@ -180,20 +180,24 @@
 	- sudo yum update
 	- yum install gcc make kernel-devel kernel-headers
 	- 執行 vboxadditions 裡面的 autorun.sh
-
-- 安裝 Apache
-	- sudo yum install httpd
-
 - 安裝 Git
 	- yum install git
-
+- 安裝 Apache 並啟動
+	- 教學: https://devops.profitbricks.com/tutorials/how-to-set-up-apache-web-server-on-centos-7/#set-up-the-apache-http-server
+	- sudo yum install httpd
+	- sudo vi /etc/selinux/config
+		- SELINUX=disabled
+	- sudo firewall-cmd --permanent --add-port=80/tcp
+	- sudo firewall-cmd --reload
 - 啟動 Apache
 	- 啟動 httpd
-		- systemctl start httpd
+		- **systemctl start httpd**
 		- systemctl enable httpd
 		- 查詢執行狀態: service httpd status
 	- 網頁伺服器設定檔: vi /etc/httpd/conf/httpd.conf
 		- ServerName 192.168.56.101:80
+- 測試連線
+	- telnet xxx.xxx.xxx.xxx 80
 
 ---
 
