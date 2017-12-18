@@ -210,27 +210,27 @@
 		- ServerName 192.168.56.101:80
 - 查詢 80 port 是否開啟
 	- netstat -ntlp，顯示以下  
-		tcp        0      0 0.0.0.0:111             0.0.0.0:*               LISTEN      -  
-		tcp        0      0 192.168.122.1:53        0.0.0.0:*               LISTEN      -  
-		tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      -  
-		tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN      -  
-		tcp        0      0 127.0.0.1:25            0.0.0.0:*               LISTEN      -  
-		tcp6       0      0 :::111                  :::*                    LISTEN      -  
-		**tcp6       0      0 :::80                   :::*                    LISTEN      -**  
-		tcp6       0      0 :::22                   :::*                    LISTEN      -  
-		tcp6       0      0 ::1:631                 :::*                    LISTEN      -  
-		tcp6       0      0 ::1:25                  :::*                    LISTEN      -
+		tcp        0      0 0.0.0.0:111             0.0.0.0:\*               LISTEN      -  
+		tcp        0      0 192.168.122.1:53        0.0.0.0:\*               LISTEN      -  
+		tcp        0      0 0.0.0.0:22              0.0.0.0:\*               LISTEN      -  
+		tcp        0      0 127.0.0.1:631           0.0.0.0:\*               LISTEN      -  
+		tcp        0      0 127.0.0.1:25            0.0.0.0:\*               LISTEN      -  
+		tcp6       0      0 :::111                  :::\*                    LISTEN      -  
+		**tcp6       0      0 :::80                   :::\*                    LISTEN      -**  
+		tcp6       0      0 :::22                   :::\*                    LISTEN      -  
+		tcp6       0      0 ::1:631                 :::\*                    LISTEN      -  
+		tcp6       0      0 ::1:25                  :::\*                    LISTEN      -
 	- 出現以上代表已經是 IPv4/IPv6 兩種環境同時支援的服務了
 	- 如果關掉 (systemctl stop httpd)，輸入 netstat -ntlp 則顯示  
-		tcp        0      0 0.0.0.0:111             0.0.0.0:*               LISTEN      -  
-		tcp        0      0 192.168.122.1:53        0.0.0.0:*               LISTEN      -  
-		tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      -  
-		tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN      -  
-		tcp        0      0 127.0.0.1:25            0.0.0.0:*               LISTEN      -  
-		tcp6       0      0 :::111                  :::*                    LISTEN      -  
-		tcp6       0      0 :::22                   :::*                    LISTEN      -  
-		tcp6       0      0 ::1:631                 :::*                    LISTEN      -  
-		tcp6       0      0 ::1:25                  :::*                    LISTEN      -
+		tcp        0      0 0.0.0.0:111             0.0.0.0:\*               LISTEN      -  
+		tcp        0      0 192.168.122.1:53        0.0.0.0:\*               LISTEN      -  
+		tcp        0      0 0.0.0.0:22              0.0.0.0:\*               LISTEN      -  
+		tcp        0      0 127.0.0.1:631           0.0.0.0:\*               LISTEN      -  
+		tcp        0      0 127.0.0.1:25            0.0.0.0:\*               LISTEN      -  
+		tcp6       0      0 :::111                  :::\*                    LISTEN      -  
+		tcp6       0      0 :::22                   :::\*                    LISTEN      -  
+		tcp6       0      0 ::1:631                 :::\*                    LISTEN      -  
+		tcp6       0      0 ::1:25                  :::\*                    LISTEN      -
 	- lsof -i -P -n | grep :80
 		- httpd  8326 apache  4u  IPv6 2394078  0t0  TCP \*:80 (LISTEN)
 	- netstat -tun
