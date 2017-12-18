@@ -170,8 +170,15 @@
 ---
 
 # Linux(VM CentOS)
-- 查詢 IP
-	- ip a 找名稱為 enp0s8
+- 改 vi 顏色
+	- 登入 root
+	- vi .bashrc
+	- alias vi='vim'
+- 查詢
+	- IP
+		- ip a 找名稱為 enp0s8
+	- Kernel
+		- cat /etc/*-release
 - 將使用者設定成 root 權限
 	- visudo
 	- 找到  root    ALL=(ALL) ALL
@@ -191,13 +198,51 @@
 	- sudo firewall-cmd --reload
 - 啟動 Apache
 	- 啟動 httpd
-		- **systemctl start httpd**
-		- systemctl enable httpd
-		- 查詢執行狀態: service httpd status
+		- CentOS 7
+			- **systemctl start httpd**
+			- systemctl enable httpd
+			- 查詢執行狀態: service httpd status
+		- Cent)S 6.9
+			- service httpd start
+			- chkconfig httpd on (開機啟動)
+			- 查詢執行狀態: service httpd status
 	- 網頁伺服器設定檔: vi /etc/httpd/conf/httpd.conf
 		- ServerName 192.168.56.101:80
+- 查詢 80 port 是否開啟
+	- netstat -ntlp，顯示以下  
+		tcp        0      0 0.0.0.0:111             0.0.0.0:*               LISTEN      -  
+		tcp        0      0 192.168.122.1:53        0.0.0.0:*               LISTEN      -  
+		tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      -  
+		tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN      -  
+		tcp        0      0 127.0.0.1:25            0.0.0.0:*               LISTEN      -  
+		tcp6       0      0 :::111                  :::*                    LISTEN      -  
+		**tcp6       0      0 :::80                   :::*                    LISTEN      -**  
+		tcp6       0      0 :::22                   :::*                    LISTEN      -  
+		tcp6       0      0 ::1:631                 :::*                    LISTEN      -  
+		tcp6       0      0 ::1:25                  :::*                    LISTEN      -
+	- 出現以上代表已經是 IPv4/IPv6 兩種環境同時支援的服務了
+	- 如果關掉 (systemctl stop httpd)，輸入 netstat -ntlp 則顯示  
+		tcp        0      0 0.0.0.0:111             0.0.0.0:*               LISTEN      -  
+		tcp        0      0 192.168.122.1:53        0.0.0.0:*               LISTEN      -  
+		tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      -  
+		tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN      -  
+		tcp        0      0 127.0.0.1:25            0.0.0.0:*               LISTEN      -  
+		tcp6       0      0 :::111                  :::*                    LISTEN      -  
+		tcp6       0      0 :::22                   :::*                    LISTEN      -  
+		tcp6       0      0 ::1:631                 :::*                    LISTEN      -  
+		tcp6       0      0 ::1:25                  :::*                    LISTEN      -
+	- lsof -i -P -n | grep :80
+		- httpd  8326 apache  4u  IPv6 2394078  0t0  TCP \*:80 (LISTEN)
+	- netstat -tun
+		- 列出已連線的網路連線狀態  
+			Proto Recv-Q Send-Q Local Address           Foreign Address         State  
+			tcp        0      0 192.168.56.101:22       192.168.56.1:53692      ESTABLISHED  
+			tcp        0     64 192.168.56.101:22       192.168.56.1:54168      ESTABLISHED  
+			**tcp6       0      0 192.168.56.101:80       192.168.56.1:54206      TIME_WAIT**
 - 測試連線
 	- telnet xxx.xxx.xxx.xxx 80
+- 資料夾權限設定
+	- 777，手動複製到 /var/www/html/ 裡面
 
 ---
 
