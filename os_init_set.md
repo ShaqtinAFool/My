@@ -178,7 +178,7 @@
 	- IP
 		- ip a 找名稱為 enp0s8
 	- Kernel
-		- cat /etc/*-release
+		- cat /etc/\*-release
 - 將使用者設定成 root 權限
 	- visudo
 	- 找到  root    ALL=(ALL) ALL
