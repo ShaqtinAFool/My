@@ -180,9 +180,9 @@
 	- Kernel
 		- cat /etc/\*-release
 	- hostname
-		- hostname        取得目前本機設定好的 Hostname
-		- hostname –i     取得目前本機 Hostname 對應的 IP
-		- hostname –I     取得目前本機設定好的所有 IP 位址
+		- hostname: 取得目前本機設定好的 Hostname
+		- hostname –i: 取得目前本機 Hostname 對應的 IP
+		- hostname –I: 取得目前本機設定好的所有 IP 位址
 - 將使用者設定成 root 權限
 	- visudo
 	- 找到  root    ALL=(ALL) ALL
@@ -299,10 +299,14 @@
 - Xming X Server for Windows: https://sourceforge.net/projects/xming/
 - SQL Server
 	- SSMS: https://docs.microsoft.com/zh-tw/sql/ssms/download-sql-server-management-studio-ssms
+- MySQL
+	- 安裝檔: https://dev.mysql.com/downloads/file/?id=473605
+	- 參考步驟: https://downloads.mysql.com/docs/mysql-installer-en.pdf
 - VirtualBox: https://www.virtualbox.org/wiki/Downloads
 	- 建立一個目錄放 VM
 	- VirtualBox 5.2.2 Oracle VM VirtualBox Extension Pack: 放在 VM 目錄內
 		- 新增在: 檔案 > 喜好設定 > 擴充功能
+
 
 ---
 
