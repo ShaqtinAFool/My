@@ -179,6 +179,10 @@
 		- ip a 找名稱為 enp0s8
 	- Kernel
 		- cat /etc/\*-release
+	- hostname
+		- hostname        取得目前本機設定好的 Hostname
+		- hostname –i     取得目前本機 Hostname 對應的 IP
+		- hostname –I     取得目前本機設定好的所有 IP 位址
 - 將使用者設定成 root 權限
 	- visudo
 	- 找到  root    ALL=(ALL) ALL
@@ -194,8 +198,11 @@
 	- sudo yum install httpd
 	- sudo vi /etc/selinux/config
 		- SELINUX=disabled
-	- sudo firewall-cmd --permanent --add-port=80/tcp
-	- sudo firewall-cmd --reload
+	- firewalld
+		- sudo firewall-cmd --permanent --add-port=80/tcp
+		- sudo firewall-cmd --reload
+		- 可 cat /etc/firewalld/zones/public.xml 確認是否加成功
+	- 輸入 IP 會出現 Apache 資訊
 - 啟動 Apache
 	- 啟動 httpd
 		- CentOS 7
