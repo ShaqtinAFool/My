@@ -330,3 +330,4 @@
 - ConvertToUTF8
 - ChineseLocalizations
 - Trailingspaces
+- Markdown Preview: https://github.com/revolunet/sublimetext-markdown-preview
