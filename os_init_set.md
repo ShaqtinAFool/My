@@ -7,6 +7,7 @@
 - [Windows\(TTFRI\)](#windowsttfri)
 - [Chrome](#chrome)
 - [Sublime](#sublime)
+- [Brackets](#brackets)
 
 <!-- /MarkdownTOC -->
 
@@ -74,20 +75,16 @@
 		- Netbeans: https://netbeans.org/downloads/index.html
 		- Sequel Pro: https://sequelpro.com/download
 		- DBeaver: https://dbeaver.jkiss.org/
-		- Brackets: http://brackets.io/
-			- 設定中文語系: Debug >> Switch Language
-			- 設定自動完成括號: Edit >> Auto close Braces
-			- Brackets Icons
-			- Brackets Beautify
-			- Markdown Preview
+
 - 同步
 	- Google Drive: https://www.google.com/intl/zh-TW_ALL/drive/download/
 - 文書
-	- LibreOffice: https://zh-tw.libreoffice.org/
+	- ~~LibreOffice: https://zh-tw.libreoffice.org/~~
 	- OpenOffice: https://www.openoffice.org
 	- MicroSoft Office: https://myfcu.fcu.edu.tw/main/infomyfculogin.aspx
 - ~~繪圖(還不會用)~~
 	- ~~Kirta: https://krita.org/jp/~~
+	- iMovie
 - 防護
 	- Avast: https://www.avast.com/zh-tw/free-mac-security
 - 其他
@@ -106,7 +103,7 @@
 		- alias ll='ls -l'
 		- source ~/.bash_profile
 	- 調整滑鼠大小: http://appleuser.com/2016/02/23/accessibility/
-	- 設定專屬的 Launchpad 排列方法 (initial: 7 columns * 5 rows)
+	- 設定專屬的 Launchpad 排列方法 (initial: 7 columns \* 5 rows)
 		- 直向: defaults write com.apple.dock springboard-rows -int 8
 		- 橫向: defaults write com.apple.dock springboard-columns -int 8
 		- 完成: killall Dock
@@ -307,7 +304,6 @@
 	- VirtualBox 5.2.2 Oracle VM VirtualBox Extension Pack: 放在 VM 目錄內
 		- 新增在: 檔案 > 喜好設定 > 擴充功能
 
-
 ---
 
 # Chrome
@@ -331,3 +327,12 @@
 - ChineseLocalizations
 - Trailingspaces
 - Markdown Preview: https://github.com/revolunet/sublimetext-markdown-preview
+
+---
+
+# Brackets
+- 設定中文語系: Debug >> Switch Language
+- 設定自動完成括號: Edit >> Auto close Braces
+- Brackets Icons
+- Brackets Beautify
+- ~~Markdown Preview~~
