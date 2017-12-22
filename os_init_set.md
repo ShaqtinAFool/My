@@ -60,6 +60,10 @@
 			- 執行 chmod 600 ~/.ssh/config 就可以了
 		- 設定識別資料
 			- git config --global user.email "xxx@xxx"
+		- 設定 .gitignore
+			- git rm . -r --cached
+			- git add .
+			- git commit -m "fixed untracked files"
 	- Homebrew
 		- /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 		- 安裝 telnet: https://github.com/theeternalsw0rd/homebrew-telnet
