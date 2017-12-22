@@ -172,6 +172,10 @@
 ---
 
 # Linux(VM CentOS)
+- 改 vim 設定
+	- set cindent (自動縮排)
+	- set cursorline (底線 目前游標位置)
+	- syntax on (語法上色)
 - 改 vi 顏色
 	- 登入 root
 	- vi .bashrc
@@ -326,6 +330,7 @@
 - 解決無法輸入中文: https://github.com/lyfeyaj/sublime-text-imfix
 	- 此方法同步解決其他程式無法輸入中文的囧境！！
 - MarkdownTOC
+	- "default_autolink": true
 	- "default_bracket": "round"
 - Side Bar
 - ConvertToUTF8
@@ -338,6 +343,6 @@
 # Brackets
 - 設定中文語系: Debug >> Switch Language
 - 設定自動完成括號: Edit >> Auto close Braces
-- Brackets Icons
+- Brackets Tree Icons
 - Brackets Beautify
 - ~~Markdown Preview~~
