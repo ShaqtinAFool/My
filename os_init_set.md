@@ -108,7 +108,8 @@
 		- 橫向: defaults write com.apple.dock springboard-columns -int 8
 		- 完成: killall Dock
 	- 啟用NTFS讀寫功能 (待寫...)
-
+	- 製作 USB 開機碟: https://www.newmobilelife.com/2016/09/21/how-to-create-usb-drive-macos-sierra-installer/
+		- sudo /Users/fool/Downloads/Install\ macOS\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/Mac --applicationpath /Users/fool/Downloads/Install\ macOS\ Sierra.app --nointeraction
 - 硬體層面
 	- if 故障
 		- 清 PRAM: 重開機後會聽到「噹」一聲後立刻按下**⌘＋option＋P＋R**
