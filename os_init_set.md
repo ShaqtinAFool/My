@@ -8,6 +8,7 @@
 - [Chrome](#chrome)
 - [Sublime](#sublime)
 - [Brackets](#brackets)
+- [Unix Interface](#unix-interface)
 
 <!-- /MarkdownTOC -->
 
@@ -99,13 +100,6 @@
 	- VLC: https://www.videolan.org/vlc/download-macosx.zh-TW.html
 	- Transmission (續傳軟體): https://transmissionbt.com/download/
 - 基本設定
-	- 讓終端機有顏色: http://sodahau.logdown.com/posts/18879-mac-ls
-		- vi ~/.bash_profile
-		- 加入 export CLICOLOR='true'
-	- 別名 alias
-		- vi ~/.bash_profile
-		- alias ll='ls -l'
-		- source ~/.bash_profile
 	- 調整滑鼠大小: http://appleuser.com/2016/02/23/accessibility/
 	- 設定專屬的 Launchpad 排列方法 (initial: 7 columns \* 5 rows)
 		- 直向: defaults write com.apple.dock springboard-rows -int 8
@@ -172,14 +166,6 @@
 ---
 
 # Linux(VM CentOS)
-- 改 vim 設定
-	- set cindent (自動縮排)
-	- set cursorline (底線 目前游標位置)
-	- syntax on (語法上色)
-- 改 vi 顏色
-	- 登入 root
-	- vi .bashrc
-	- alias vi='vim'
 - 查詢
 	- IP
 		- ip a 找名稱為 enp0s8
@@ -346,3 +332,26 @@
 - Brackets Tree Icons
 - Brackets Beautify
 - ~~Markdown Preview~~
+
+---
+
+# Unix Interface
+- root
+	- 改 vi 顏色
+		- vi .bashrc
+		- alias vi='vim'
+		- source .bashrc
+	- 改 vim 設定
+		- vi ~/.vimrc
+		- set cindent (自動縮排)
+		- set cursorline (底線 目前游標位置)
+		- syntax on (語法上色)
+- User
+	- 讓終端機有顏色: http://sodahau.logdown.com/posts/18879-mac-ls
+		- vi ~/.bash_profile
+		- 加入 export CLICOLOR='true'
+		- source ~/.bash_profile
+	- 別名 alias
+		- vi ~/.bash_profile
+		- alias ll='ls -l'
+		- source ~/.bash_profile
