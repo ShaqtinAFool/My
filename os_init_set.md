@@ -1,14 +1,14 @@
 <!-- MarkdownTOC -->
 
-- [MAC](#mac)
-- [Linux\(Host Ubuntu\)](#linuxhost-ubuntu)
-- [Linux\(VM CentOS\)](#linuxvm-centos)
-- [Windows](#windows)
-- [Windows\(TTFRI\)](#windowsttfri)
-- [Chrome](#chrome)
-- [Sublime](#sublime)
-- [Brackets](#brackets)
-- [Unix Interface](#unix-interface)
+- MAC
+- Linux\(Host Ubuntu\)
+- Linux\(VM CentOS\)
+- Windows
+- Windows\(TTFRI\)
+- Chrome
+- Sublime
+- Brackets
+- Unix Interface
 
 <!-- /MarkdownTOC -->
 
@@ -353,5 +353,5 @@
 		- source ~/.bash_profile
 	- 別名 alias
 		- vi ~/.bash_profile
-		- alias ll='ls -l'
+		- alias ll='ls -al'
 		- source ~/.bash_profile
