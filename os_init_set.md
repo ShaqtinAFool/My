@@ -88,6 +88,7 @@
 	- OpenOffice: https://www.openoffice.org
 	- MicroSoft Office: https://myfcu.fcu.edu.tw/main/infomyfculogin.aspx
 	- iWork: https://www.kocpc.com.tw/archives/4201
+		- 轉成英文版後更新
 - ~~繪圖(還不會用)~~
 	- ~~Kirta: https://krita.org/jp/~~
 	- iMovie
