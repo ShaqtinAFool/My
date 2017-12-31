@@ -1,14 +1,14 @@
 <!-- MarkdownTOC -->
 
-- MAC
-- Linux\(Host Ubuntu\)
-- Linux\(VM CentOS\)
-- Windows
-- Windows\(TTFRI\)
-- Chrome
-- Sublime
-- Brackets
-- Unix Interface
+- [MAC](#mac)
+- [Linux\(Host Ubuntu\)](#linuxhost-ubuntu)
+- [Linux\(VM CentOS\)](#linuxvm-centos)
+- [Windows](#windows)
+- [Windows\(TTFRI\)](#windowsttfri)
+- [Chrome](#chrome)
+- [Sublime](#sublime)
+- [Brackets](#brackets)
+- [Unix Interface](#unix-interface)
 
 <!-- /MarkdownTOC -->
 
@@ -110,7 +110,12 @@
 	- 啟用NTFS讀寫功能 (待寫...)
 	- 製作 USB 開機碟: https://www.newmobilelife.com/2016/09/21/how-to-create-usb-drive-macos-sierra-installer/
 		- sudo /Users/fool/Downloads/Install\ macOS\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/Mac --applicationpath /Users/fool/Downloads/Install\ macOS\ Sierra.app --nointeraction
-- 硬體層面
+	- 關閉 spotlight: https://www.howtogeek.com/230424/how-to-disable-system-integrity-protection-on-a-mac-and-why-you-shouldnt/
+		- disable System Integrity Protection
+			- reboot into recovery mode: Command+R
+			- csrutil disable (開啟: csrutil enable)
+		- restrat system
+		- sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist
 	- if 故障
 		- 清 PRAM: 重開機後會聽到「噹」一聲後立刻按下**⌘＋option＋P＋R**
 		- 重置 SMC: Shift＋Control＋Option 鍵以及電源按鈕
