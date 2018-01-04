@@ -1,6 +1,7 @@
 <!-- MarkdownTOC -->
 
 - [MAC](#mac)
+- [MAC\(VM\)](#macvm)
 - [Linux\(Host Ubuntu\)](#linuxhost-ubuntu)
 - [Linux\(VM CentOS\)](#linuxvm-centos)
 - [Windows](#windows)
@@ -121,6 +122,9 @@
 		- 重置 SMC: Shift＋Control＋Option 鍵以及電源按鈕
 	- 立馬釋放記憶體
 		- sudo purge
+
+# MAC(VM)
+- http://magicjackting.pixnet.net/blog/post/191234203-%E7%94%A8-vmware-%E5%AE%89%E8%A3%9D%E5%8F%8A%E6%B8%AC%E8%A9%A6-mac-os-x
 
 ---
 
