@@ -1,15 +1,15 @@
 <!-- MarkdownTOC -->
 
-- [MAC](#mac)
-- [MAC\(VM\)](#macvm)
-- [Linux\(Host Ubuntu\)](#linuxhost-ubuntu)
-- [Linux\(VM CentOS\)](#linuxvm-centos)
-- [Windows](#windows)
-- [Windows\(TTFRI\)](#windowsttfri)
-- [Chrome](#chrome)
-- [Sublime](#sublime)
-- [Brackets](#brackets)
-- [Unix Interface](#unix-interface)
+- MAC
+- MAC\(VM\)
+- Linux\(Host Ubuntu\)
+- Linux\(VM CentOS\)
+- Windows
+- Windows\(TTFRI\)
+- Chrome
+- Sublime
+- Brackets
+- Unix Interface
 
 <!-- /MarkdownTOC -->
 
@@ -102,6 +102,7 @@
 	- AppCleaner: https://freemacsoft.net/appcleaner/
 	- VLC: https://www.videolan.org/vlc/download-macosx.zh-TW.html
 	- Transmission (續傳軟體): https://transmissionbt.com/download/
+	- coconutBattery: http://www.coconut-flavour.com/coconutbattery/
 - 基本設定
 	- 調整滑鼠大小: http://appleuser.com/2016/02/23/accessibility/
 	- 設定專屬的 Launchpad 排列方法 (initial: 7 columns \* 5 rows)
