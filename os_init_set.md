@@ -101,6 +101,7 @@
 	- Mactracker: https://itunes.apple.com/tw/app/mactracker/id430255202?mt=12
 	- AppCleaner: https://freemacsoft.net/appcleaner/
 	- VLC: https://www.videolan.org/vlc/download-macosx.zh-TW.html
+		- 可在 preference 轉成 中文
 	- Transmission (續傳軟體): https://transmissionbt.com/download/
 	- coconutBattery: http://www.coconut-flavour.com/coconutbattery/
 - 基本設定
@@ -118,11 +119,11 @@
 			- csrutil disable (開啟: csrutil enable)
 		- restrat system
 		- sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist
-	- if 故障
-		- 清 PRAM: 重開機後會聽到「噹」一聲後立刻按下**⌘＋option＋P＋R**
-		- 重置 SMC: Shift＋Control＋Option 鍵以及電源按鈕
-	- 立馬釋放記憶體
-		- sudo purge
+- 故障
+	- 清 PRAM: 重開機後會聽到「噹」一聲後立刻按下**⌘＋option＋P＋R**
+	- 重置 SMC: Shift＋Control＋Option 鍵以及電源按鈕
+- 釋放記憶體
+	- sudo purge
 
 # MAC(VM)
 - http://magicjackting.pixnet.net/blog/post/191234203-%E7%94%A8-vmware-%E5%AE%89%E8%A3%9D%E5%8F%8A%E6%B8%AC%E8%A9%A6-mac-os-x
@@ -317,7 +318,7 @@
 - LastPass
 - Google 翻譯
 - AdBlock
-- Office Online
+- ~~Office Online~~
 - Imagus
 - 遠端桌面: https://chrome.google.com/webstore/detail/chrome-remote-desktop/gbchcmhmhahfdphkhkmpfmihenigjmpp?hl=zh-TW
 
