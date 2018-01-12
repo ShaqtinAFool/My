@@ -1,15 +1,15 @@
 <!-- MarkdownTOC -->
 
-- MAC
-- MAC\(VM\)
-- Linux\(Host Ubuntu\)
-- Linux\(VM CentOS\)
-- Windows
-- Windows\(TTFRI\)
-- Chrome
-- Sublime
-- Brackets
-- Unix Interface
+- [MAC](#mac)
+- [MAC\(VM\)](#macvm)
+- [Linux\(Host Ubuntu\)](#linuxhost-ubuntu)
+- [Linux\(VM CentOS\)](#linuxvm-centos)
+- [Windows](#windows)
+- [Windows\(TTFRI\)](#windowsttfri)
+- [Chrome](#chrome)
+- [Sublime](#sublime)
+- [Brackets](#brackets)
+- [Unix Interface](#unix-interface)
 
 <!-- /MarkdownTOC -->
 
@@ -66,6 +66,8 @@
 			- git rm . -r --cached
 			- git add .
 			- git commit -m "fixed untracked files"
+		- 如果無法使用: Permissions 0777 for '/Users/username/.ssh/id_rsa' are too open.
+			- 到 .ssh 把檔案都 chmod 400 * 就 OK
 	- Homebrew
 		- /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 		- 安裝 telnet: https://github.com/theeternalsw0rd/homebrew-telnet
