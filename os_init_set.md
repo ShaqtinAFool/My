@@ -106,6 +106,7 @@
 		- 可在 preference 轉成 中文
 	- Transmission (續傳軟體): https://transmissionbt.com/download/
 	- coconutBattery: http://www.coconut-flavour.com/coconutbattery/
+	- Mounty for NTFS: http://enjoygineering.com/mounty/#FAQs
 - 基本設定
 	- 調整滑鼠大小: http://appleuser.com/2016/02/23/accessibility/
 	- 設定專屬的 Launchpad 排列方法 (initial: 7 columns \* 5 rows)
