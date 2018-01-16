@@ -66,8 +66,11 @@
 			- git rm . -r --cached
 			- git add .
 			- git commit -m "fixed untracked files"
-		- 如果無法使用: Permissions 0777 for '/Users/username/.ssh/id_rsa' are too open.
-			- 到 .ssh 把檔案都 chmod 400 * 就 OK
+		- **bug**
+			- 如果無法使用: Permissions 0777 for '/Users/username/.ssh/id_rsa' are too open.
+				- 到 .ssh 把檔案都 chmod 400 * 就 OK		
+			- ssh: Could not resolve hostname github.com: nodename nor servname provided, or not known
+				- DNS 問題
 	- Homebrew
 		- /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 		- 安裝 telnet: https://github.com/theeternalsw0rd/homebrew-telnet
