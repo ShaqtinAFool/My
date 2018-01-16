@@ -82,6 +82,9 @@
 				- ln -s /usr/local/Cellar/telnet/54.50.1/bin/telnet /usr/bin/
 				- 重啟後按 command + R，啟動終端機
 				- csrutil enable
+		- 安裝 mas-cli (Mac App Store command line interface): https://free.com.tw/mas-cli-macos-install-app/
+			- brew install mas
+			- mas install 1246284741 
 	- IDE
 		- Netbeans: https://netbeans.org/downloads/index.html
 		- Sequel Pro: https://sequelpro.com/download
