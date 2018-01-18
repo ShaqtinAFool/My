@@ -68,7 +68,7 @@
 			- git commit -m "fixed untracked files"
 		- **bug**
 			- 如果無法使用: Permissions 0777 for '/Users/username/.ssh/id_rsa' are too open.
-				- 到 .ssh 把檔案都 chmod 400 * 就 OK		
+				- 到 .ssh 把檔案都 chmod 400 * 就 OK
 			- ssh: Could not resolve hostname github.com: nodename nor servname provided, or not known
 				- DNS 問題
 	- Homebrew
@@ -84,7 +84,7 @@
 				- csrutil enable
 		- 安裝 mas-cli (Mac App Store command line interface): https://free.com.tw/mas-cli-macos-install-app/
 			- brew install mas
-			- mas install 1246284741 
+			- mas install 1246284741
 	- IDE
 		- Netbeans: https://netbeans.org/downloads/index.html
 		- Sequel Pro: https://sequelpro.com/download
@@ -113,6 +113,7 @@
 	- Transmission (續傳軟體): https://transmissionbt.com/download/
 	- coconutBattery: http://www.coconut-flavour.com/coconutbattery/
 	- Mounty for NTFS: http://enjoygineering.com/mounty/#FAQs
+	- KeKa: http://www.kekaosx.com/zh-tw/
 - 基本設定
 	- 調整滑鼠大小: http://appleuser.com/2016/02/23/accessibility/
 	- 設定專屬的 Launchpad 排列方法 (initial: 7 columns \* 5 rows)
