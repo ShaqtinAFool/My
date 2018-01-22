@@ -13,6 +13,7 @@
 - [外交部](#%E5%A4%96%E4%BA%A4%E9%83%A8)
 	- [資訊安全與網路管理概要（外交四等）](#%E8%B3%87%E8%A8%8A%E5%AE%89%E5%85%A8%E8%88%87%E7%B6%B2%E8%B7%AF%E7%AE%A1%E7%90%86%E6%A6%82%E8%A6%81%EF%BC%88%E5%A4%96%E4%BA%A4%E5%9B%9B%E7%AD%89%EF%BC%89)
 		- [106年](#106%E5%B9%B4-3)
+		- [105年](#105%E5%B9%B4-3)
 - [調查局](#%E8%AA%BF%E6%9F%A5%E5%B1%80)
 	- [電腦網路（調查三等）](#%E9%9B%BB%E8%85%A6%E7%B6%B2%E8%B7%AF%EF%BC%88%E8%AA%BF%E6%9F%A5%E4%B8%89%E7%AD%89%EF%BC%89)
 		- [106年](#106%E5%B9%B4-4)
@@ -103,8 +104,11 @@
 	- Web Caching
 - 就常見的多重接取（Multiple Access）技術，請回答下列問題：（每小題 5 分，共 20 分）
 	- TDMA 運作模式。
+		- Time Division Multiple Access: 多個用戶可在不同的時間來使用相同的頻率。
 	- FDMA 運作模式。
+		- Frequency Division Multiple Access: 用戶單獨分配了一或多個頻段。
 	- CDMA 運作模式。
+		- Code Division Multiple Access: 相同的帶寬下可以容納更多的呼叫
 	- 請從使用者觀點比較上述三種接取技術在頻寬資源上使用之差異。
 
 ## 	資訊管理概要（地特四等）
@@ -139,6 +143,19 @@
 - 服務品質（Quality of Service, QoS）```7%```
 - 國際規範對資訊安全的定義如下：維護資產的隱密性（Confidentiality）、完整性（Integrity）、可用性（Availability）；請說明此三個安全需求與相關的解決方案。 ```22%```
 
+### 105年
+- 請說明下列名詞的意涵：（每小題 5 分，共 20 分）
+- 魚叉式釣魚攻擊（Spear phishing attack）
+- 內容傳遞網路（Content Delivery Network, CDN）
+- 服務層級協議（Service Level Agreement, SLA）
+- 公眾交換資料網路（Public Switched Data Network, PSDN）
+- 防火牆（Firewall）是一般組織最常見的安全防護工具，而現代防火牆多採用 Stateful Packet Inspection（SPI）技術，請詳細回答下列問題：
+	- 何謂 SPI？為何要使用此技術？（10 分）
+	- Packet-filtering Firewall 和 Web Application Firewall（WAF）有何不同？（10 分）
+- 無線區域網路（Wireless LAN）已是目前非常普遍的網路技術，請問：
+	- 為何無線區域網路在實體層要使用展頻（Spread spectrum）技術？（5 分）
+	- Evil Twins Access Point 攻擊會對 WLAN 造成何種安全危害？請說明之。（5 分）
+
 ---
 
 # 調查局
@@ -150,9 +167,9 @@
 	- 802.1X Port based network access control ```5%```
 	- 802.1AE Media access control（MAC）security ```5%```
 
-- 網路上的訊息延遲 message latency至少包含 propagation time、transmission time 以及 queuing time 等三部分，請詳細說明以上三部分的意義。 ```12%```
+- 網路上的訊息延遲 message latency 至少包含 propagation time、transmission time 以及 queuing time 等三部分，請詳細說明以上三部分的意義。 ```12%```
 
-- 假設網路頻寬為 5 Mbps，電腦 A、B 之間距離為 12000 公里，光速為 3x108 公尺/秒，現在電腦 A 欲傳送長度 10 MB（Mega bytes）大小之訊息給電腦 B，請問該訊息的 propagation time 與 transmission time 各為多少？需寫出正確計算式與單位才予以計分。 ```8%```
+- 假設網路頻寬為 5 Mbps，電腦 A、B 之間距離為 12000 公里，光速為 3x10^8 公尺/秒，現在電腦 A 欲傳送長度 10 MB（Mega bytes）大小之訊息給電腦 B，請問該訊息的 propagation time 與 transmission time 各為多少？需寫出正確計算式與單位才予以計分。 ```8%```
 
 - 請詳細說明 SDN（Software Defined Network）的發展背景、系統組成以及其帶來的優點。```20%```
 
@@ -171,7 +188,9 @@
 ### 106年
 - 網際網路的安全日益受到重視，下列是常見的網路攻擊名詞，請詳細說明其意義。
 	- Zero-day attack ```5%```
+		- 利用還沒有修補程式的安全漏洞進行攻擊。
 	- Spear phishing attack ```5%```
+		- 針對特定目標進行攻擊的網路釣魚攻擊。當進行攻擊的駭客鎖定目標後，會以電子郵件的方式，假冒該公司或組織的名義寄發難以辨真偽之檔案，誘使員工進一步登錄其帳號密碼，使攻擊者可以以此藉機安裝特洛伊木馬或其他間諜軟體，竊取機密。
 	- ARP spoofing attack ```5%```
 	- XSS（Cross-site scripting）attack ```5%```
 
@@ -196,7 +215,7 @@
 ### 106年
 - 網際網路封包傳送的路由器交換技術可分為封包交換（Packet switching）和線路交換（Circuit switching）分別說明封包交換和線路交換如何將資料由來源端送至目的端？ ```15%```
 
-- 說明封包交換和線路交換方法的優缺點。  ```10%```
+- 說明封包交換和線路交換方法的優缺點。 ```10%```
 
 - 虛擬私有網路（Virtual Private Network）常被用來穿過惡意網路，將資料傳送至目的地端。
 	- 何謂虛擬私有網路？ ```5%```
@@ -223,7 +242,7 @@
 
 - 請回答下列有關瀏覽器相關的資訊安全問題：
 	- 請舉出五項瀏覽器對採用 SSL 網站的安全檢查措施。 ```15%```
-	- 請說明 XSS 攻擊，並說明可防範的方式。  ```10%```
+	- 請說明 XSS 攻擊，並說明可防範的方式。 ```10%```
 
 ## 資通網路（高考三級）
 ### 106年
@@ -244,11 +263,8 @@
 ## 網路與資訊安全(警特二等)
 ### 106年
 - 請說明何謂數位信封（Digital Envelope），以及其運作流程。 ```25%```
-
 - 請說明何謂跨網站指令碼（XSS，Cross-Site Scripting）攻擊，以及如何防範此攻擊。 ```25%```
-
 - 無線感測網路（Wireless Sensor Networks）技術已廣泛應用於環境監控、軍事、醫學照護及智慧家庭等領域上，其封包傳遞的安全問題須格外重視，請列舉五種在無線感測網路上的攻擊方式。 ```25%```
-
 - 當個人資料被竊取、竄改、毀損、滅失或洩漏等個資事件發生時，請問個資外洩單位所應採取的應變措施有那些？ ```25%```
 
 ---
