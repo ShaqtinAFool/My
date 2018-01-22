@@ -306,6 +306,7 @@
 	- Avast
 	- FreeFileSync: https://www.freefilesync.org/download.php
 	- HeidiSQL: https://www.heidisql.com/
+		- 註解快捷建: 工具 > 設定 > 快捷建 > SQL > 取消/加入註釋 > Ctrl + /
 
 # Windows(TTFRI)
 - 主機型號: https://www.asus.com/tw/Commercial-Desktop/BM6675/
