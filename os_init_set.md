@@ -348,6 +348,7 @@
 - Trailingspaces
 - Markdown Preview: https://github.com/revolunet/sublimetext-markdown-preview
 - SublimeTableEditor (到 github 下載專案): https://github.com/vkocubinsky/SublimeTableEditor
+- Clickable URLs: https://github.com/leonid-shevtsov/ClickableUrls_SublimeText
 
 ---
 
