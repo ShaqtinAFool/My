@@ -266,6 +266,18 @@
 - 資料夾權限設定
 	- 777，手動複製到 /var/www/html/ 裡面
 
+- MySQL: https://dev.mysql.com/downloads/mysql/
+	- 查詢狀態: systemctl status mysqld.service
+	- 關閉 MySQL 服務: systemctl stop mysqld.service
+	- 建立空的密碼: 
+		- systemctl set-environment MYSQLD_OPTS="--skip-grant-tables"
+		- systemctl start mysql
+	- mysql -u 登入使用者 -p
+		- USE mysql;
+		- UPDATE user SET authentication_string=PASSWORD('密碼') WHERE User='登入使用者';
+		- flush privileges;
+		- done!
+
 ---
 
 # Windows
