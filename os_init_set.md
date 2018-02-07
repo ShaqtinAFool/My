@@ -305,6 +305,10 @@
 
 - 其他
 	- cmder: http://cmder.net/
+		- 初始目錄: 修改 .\cmder_mini\vendor\init.bat
+			Set home path  
+			:: if not defined HOME set "HOME=%USERPROFILE%"  
+			@cd /d "D:\Ubuntu\Documents"
 		- 中文不亂碼: set LANG=zh_TW.UTF-8
 		- 將 lambda 改成 $: \cmder\vendor\clink.lua，找 lambda
 		- 環境變數
