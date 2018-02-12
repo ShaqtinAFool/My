@@ -338,6 +338,9 @@
 	- 建立一個目錄放 VM
 	- VirtualBox 5.2.2 Oracle VM VirtualBox Extension Pack: 放在 VM 目錄內
 		- 新增在: 檔案 > 喜好設定 > 擴充功能
+- 啟用 WCF 元件
+	- 終端機輸入: %windir%\system32\inetsrv\appcmd.exe set site "Default Web Site" -+bindings.[protocol='net.tcp',bindingInformation='808:\*']
+	
 
 ---
 
