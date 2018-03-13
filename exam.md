@@ -142,6 +142,7 @@
 	- TCP Flow Control 運作原理。 ```5%```
 		- TCP 下的 Flow Control 採用信用方案（credit scheme），當接收端接收到多個訊息時，可以回應「確認」（acknowledgement）訊息，訊息內包含確認的訊息編號，及未來可再接收的訊息數目。通知傳送端所希望的窗口大小，甚至在緩衝區全滿時，可以宣告窗口大小為 0。利用此一方式避免傳送端傳太快造成接收端來不及處理。
 	- TCP Congestion Control 運作原理。 ```5%```
+		- TCP 的 Congestion Control 在連結建立後，傳送端會將壅塞窗口的大小設成 1 個最大區段長度，接著將之送出，如果可以不必逾時就收到回覆，則傳送端會將壅塞窗口大小加倍，直到發生逾時或達到接收端窗口大小，此一方法稱為慢速起動（slow start）。但在碰到門檻後，會改用線性成長方式探索最佳傳輸率。
 	- 比較說明 TCP Flow Control 與 TCP Congestion Control 之差異。 ```5%```
 		- Flow Control: 避免傳送端塞爆接收端的緩衝區
 		- Congestion Control: 避免傳送端把網路整個塞爆。
