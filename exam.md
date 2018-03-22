@@ -131,7 +131,7 @@
 		- 從訊框處理效能觀點，Store and Forward 模式最費時，Cut-Through 轉送模式次之，最快的是 Fragment-Free 模式。
 - 路由器有 Routing 與 Forwarding 兩大功能，請說明兩大功能運作機制與差異之處。 ```15%```
 	- Forwarding(轉送)是指該怎麼把封包從一個 Router 送到下一個 Router ，這是在 Router 內進行的動作，將封包從輸入連結介面傳送到適當的輸出連結介面；Routing(繞送)則是根據 routing algorithms(繞送演算法)來決定該如何從一個 host 將封包送到另一個 host，這是在整個網路範圍中的過程，決定封包由來源端到目的端所採取的端點到端點路徑。 
-- **Replay Attack 為網路安全上的議題，請說明下列問題：**
+- Replay Attack 為網路安全上的議題，請說明下列問題：
 	- **何謂 Replay Attack？ ```5%```**
 		- 重複攻擊，是一種網路攻擊，通過惡意的欺詐性地重複或拖延正常的資料傳輸而實施。
 	- **舉例說明 Replay Attack 所引發的資安危害。 ```5%```**
