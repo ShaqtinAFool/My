@@ -1,15 +1,15 @@
 <!-- MarkdownTOC -->
 
-- [MAC](#mac)
-- [MAC\(VM\)](#macvm)
-- [Linux\(Host Ubuntu\)](#linuxhost-ubuntu)
-- [Linux\(VM CentOS\)](#linuxvm-centos)
-- [Windows](#windows)
-- [Windows\(TTFRI\)](#windowsttfri)
-- [Chrome](#chrome)
-- [Sublime](#sublime)
-- [Brackets](#brackets)
-- [Unix Interface](#unix-interface)
+- MAC
+- MAC\(VM\)
+- Linux\(Host Ubuntu\)
+- Linux\(VM CentOS\)
+- Windows
+- Windows\(TTFRI\)
+- Chrome
+- Sublime
+- Brackets
+- Unix Interface
 
 <!-- /MarkdownTOC -->
 
@@ -51,13 +51,13 @@
 				User git  
 				IdentityFile ~/.ssh/id_rsa_github
 			- 第二組  
-				Host gitlab.ttfri.space  
-				HostName gitlab.ttfri.space  
+				Host gitlab.ttfri.org.tw  
+				HostName gitlab.ttfri.org.tw  
 				User git  
 				IdentityFile ~/.ssh/id_rsa_gitlab
 		- cat ~/.ssh/id_rsa.pub，複製全部文字
 		- 到 GitLab 網站的 SSH Keys 把這段文字貼上去
-		- 測試看看: ssh -T -p 13922 git@gitlab.ttfri.space
+		- 測試看看: ssh -T -p 13922 git@gitlab.ttfri.org.tw
 			- 如果出現 Bad owner or permissions on /home/使用者名稱/.ssh/config
 			- 執行 chmod 600 ~/.ssh/config 就可以了
 		- 設定識別資料
@@ -300,6 +300,9 @@
 		- 在 C:\Windows 製作(用 echo %WINDIR% 查路徑)
 			- my.ini
 			- my.cnf
+		- 產生 CSV 檔案所遇到的問題: https://blog.csdn.net/qq_35246620/article/details/78148505
+			- 問題: The MySQL server is running with the --secure-file-priv option so it cannot execute this statement
+			- (未完成...)
 
 	- telnet: https://support.microsoft.com/zh-tw/help/982538
 
