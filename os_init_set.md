@@ -302,7 +302,15 @@
 			- my.cnf
 		- 產生 CSV 檔案所遇到的問題: https://blog.csdn.net/qq_35246620/article/details/78148505
 			- 問題: The MySQL server is running with the --secure-file-priv option so it cannot execute this statement
-			- (未完成...)
+			- 到 C:\ProgramData\MySQL\MySQL Server 5.7 改 my.ini
+				- # Secure File Priv.
+				- secure-file-priv="C:\Users\tony\Desktop"
+			- 安裝服務(如果沒裝的話)
+				- 用 admin 開啟 cmd: C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld --install
+				- 顯示 Service successfully installed.
+			- 重啟 mysql server
+				- 到 C:\Program Files\MySQL\MySQL Server 5.7\bin 底下輸入 mysqladmin.exe -uroot -p shutdown
+			- 到 cmd 輸入 services.msc，啟動 MySQL57
 
 	- telnet: https://support.microsoft.com/zh-tw/help/982538
 
