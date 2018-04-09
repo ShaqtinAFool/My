@@ -8,6 +8,7 @@
 - Windows\(TTFRI\)
 - Chrome
 - Sublime
+- Notepad++
 - Brackets
 - Unix Interface
 
@@ -351,7 +352,6 @@
 		- 新增在: 檔案 > 喜好設定 > 擴充功能
 - 啟用 WCF 元件
 	- 終端機輸入: %windir%\system32\inetsrv\appcmd.exe set site "Default Web Site" -+bindings.[protocol='net.tcp',bindingInformation='808:\*']
-	
 
 ---
 
@@ -379,6 +379,12 @@
 - Markdown Preview: https://github.com/revolunet/sublimetext-markdown-preview
 - SublimeTableEditor (到 github 下載專案): https://github.com/vkocubinsky/SublimeTableEditor
 - Clickable URLs: https://github.com/leonid-shevtsov/ClickableUrls_SublimeText
+
+---
+
+# Notepad++
+- MarkdownViewerPlusPlus: https://github.com/nea/MarkdownViewerPlusPlus
+	- 將 dll 放在 Plugins 內
 
 ---
 
