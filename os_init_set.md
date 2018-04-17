@@ -270,7 +270,7 @@
 - MySQL: https://dev.mysql.com/downloads/mysql/
 	- 查詢狀態: systemctl status mysqld.service
 	- 關閉 MySQL 服務: systemctl stop mysqld.service
-	- 建立空的密碼: 
+	- 建立空的密碼:
 		- systemctl set-environment MYSQLD_OPTS="--skip-grant-tables"
 		- systemctl start mysql
 	- mysql -u 登入使用者 -p
@@ -278,6 +278,27 @@
 		- UPDATE user SET authentication_string=PASSWORD('密碼') WHERE User='登入使用者';
 		- flush privileges;
 		- done!
+
+- Mariadb: https://stackoverflow.com/questions/31067135/in-centos7-can-not-start-mysql
+	- 安裝步驟: yum -y install mariadb-server
+	- 啟動: systemctl start mariadb
+	- 設定 root 密碼: mysql_secure_installation [enter]，然後一直 [Y]
+	- 建立使用者: CREATE USER 'tony'@'localhost' IDENTIFIED BY 'ncu5540';
+	- 建立資料庫: CREATE DATABASE dbahr;
+	- 設定使用者權限: GRANT ALL ON dbahr.* TO 'tony' IDENTIFIED BY 'ncu5540';
+		- 防止出現: ERROR 1045 (28000): Access denied for user 'usera'@'localhost' (using password:YES)
+	- 最後: FLUSH PRIVILEGES;
+
+- 群組
+	- 建立群組: groupadd dbahr
+	- 資料夾批次改群組: chown -R root:dbahr ./dbahr/
+	- 使用者新增其他群組: usermod -a -G dbahr tony
+	- 使用者加入群組: usermod -G dbahr tony
+	- 檢查群組: grep tony /etc/group
+		tony:x:1001:  
+		dbahr:x:1002:tony
+	- 更改使用者群組: usermod -g dbahr tony
+
 
 ---
 
