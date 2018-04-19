@@ -191,6 +191,9 @@
 ---
 
 # Linux(VM CentOS)
+- 設定 NTP
+	- timedatectl set-ntp yes
+	- timedatectl set-timezone "Asia/Taipei"
 - 查詢
 	- IP
 		- ip a 找名稱為 enp0s8
