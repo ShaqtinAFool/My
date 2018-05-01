@@ -287,10 +287,12 @@
 	- 安裝步驟: yum -y install mariadb-server
 	- 啟動: systemctl start mariadb
 	- 設定 root 密碼: mysql_secure_installation [enter]，然後一直 [Y]
+	- 登入: mysql -u root -p
 	- 建立使用者: CREATE USER 'tony'@'localhost' IDENTIFIED BY 'ncu5540';
 	- 建立資料庫: CREATE DATABASE dbahr;
 	- 設定使用者權限: GRANT ALL ON dbahr.* TO 'tony' IDENTIFIED BY 'ncu5540';
-		- 防止出現: ERROR 1045 (28000): Access denied for user 'usera'@'localhost' (using password:YES)
+		- 防止出現: ERROR 1045 (28000): Access denied for user 'user'@'localhost' (using password:YES)
+		- 一定要 key 密碼
 	- 最後: FLUSH PRIVILEGES;
 
 - 群組
