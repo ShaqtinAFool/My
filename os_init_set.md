@@ -112,6 +112,7 @@
 	- AppCleaner: https://freemacsoft.net/appcleaner/
 	- VLC: https://www.videolan.org/vlc/download-macosx.zh-TW.html
 		- 可在 preference 轉成 中文
+	- IINA: https://lhc70000.github.io/iina/
 	- Transmission (續傳軟體): https://transmissionbt.com/download/
 	- coconutBattery: http://www.coconut-flavour.com/coconutbattery/
 	- Mounty for NTFS: http://enjoygineering.com/mounty/#FAQs
