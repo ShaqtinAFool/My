@@ -88,6 +88,7 @@
 			- mas install 1246284741
 	- IDE
 		- Netbeans: https://netbeans.org/downloads/index.html
+			- php 記得下載執行檔放在 php 5 interpreter: https://windows.php.net/download/
 		- Sequel Pro: https://sequelpro.com/download
 		- DBeaver: https://dbeaver.jkiss.org/
 
