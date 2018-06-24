@@ -86,6 +86,8 @@
 		- 安裝 mas-cli (Mac App Store command line interface): https://free.com.tw/mas-cli-macos-install-app/
 			- brew install mas
 			- mas install 1246284741
+	- Apache
+		- 啟動：apachectl start
 	- IDE
 		- Netbeans: https://netbeans.org/downloads/index.html
 		- Sequel Pro: https://sequelpro.com/download
@@ -105,6 +107,7 @@
 - 防護
 	- Avast: https://www.avast.com/zh-tw/free-mac-security
 - 其他
+	- Evernote
 	- FreeMind: http://freemind.sourceforge.net/wiki/index.php/Main_Page
 	- FreeFileSync: https://www.freefilesync.org/download.php
 	- Mactracker: https://itunes.apple.com/tw/app/mactracker/id430255202?mt=12
