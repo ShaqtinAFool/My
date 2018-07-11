@@ -19,6 +19,10 @@
 # MAC
 - 格式：外接硬碟如果不是 Mac 格式，就無法寫入。
 - 開發
+	- https://nodejs.org/en/download/
+		- gitbook fetch
+		- npm uninstall -g gitbook
+		- npm uninstall -g gitbook-cli
 	- Java
 		- JDK 8: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 		- 注意！！Netbeans 須和 JDK 版本一致
